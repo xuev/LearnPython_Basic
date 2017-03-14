@@ -40,6 +40,13 @@ def fc(val):
             print("    输入有误，请重新输入！")
             print()
             return fc(val)
+        elif val in ['quit', 'exit', 'q']:
+            return
+        else:
+            print()
+            print("    输入有误，请重新输入！")
+            print()
+            return fc(val)
     else:
         print()
         print("    输入有误，请重新输入！")
